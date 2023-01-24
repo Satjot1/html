@@ -1,0 +1,195 @@
+body {
+    display: none;
+    background-image: url(logo.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: azure;
+}
+
+.list {
+    list-style-type: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#profile_img {
+    margin-left: 0px;
+    border-radius: 100%;
+}
+
+.navbar {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.list1 {
+    display: none;
+}
+
+.list2 {
+    display: none;
+}
+
+.list3 {
+    display: none;
+}
+
+.list4 {
+    display: none;
+}
+
+.hr3 {
+    margin-top: -23px;
+    margin-right: 240px;
+}
+
+.hr2 {
+    margin-top: -23px;
+    margin-right: 240px;
+}
+
+.hr1 {
+    margin-right: 240px;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: wheat;
+    height: auto;
+    width: 310px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.card:hover {
+    margin-top: 10px;
+    background-color: rgb(12, 243, 12);
+    border-radius: 40px;
+    color: black;
+}
+
+#card_img {
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+
+/***** starting of responcive css *****/
+
+@media only screen and (min-width:850px) {
+    body {
+        display: block;
+        background-color: rgb(22, 209, 215);
+    }
+
+    .list {
+        display: flex;
+        margin-left: 10px;
+        list-style-type: none;
+    }
+
+    li {
+        margin-left: 100px;
+        font-size: larger;
+        color: cornsilk;
+        cursor: pointer;
+        margin-top: 15px;
+        box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    li:hover {
+        color: crimson;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        background: rgb(51, 0, 255);
+        height: 50px;
+        border-radius: 20px 40px;
+        box-shadow: 2px 3px 10px 2px black;
+    }
+
+    #profile_img {
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 6px;
+        border-radius: 100%;
+    }
+
+    .components {
+        margin-top: 20px;
+        font-size: larger;
+    }
+
+    .list1 {
+        display: block;
+    }
+
+    .list2 {
+        display: block;
+    }
+
+    .list3 {
+        display: block;
+    }
+
+    .list4 {
+        display: block;
+    }
+
+    .hr3 {
+        margin-top: -23px;
+        margin-right: 240px;
+        display: none;
+    }
+
+    .hr2 {
+        margin-top: -23px;
+        margin-right: 240px;
+        display: none;
+    }
+
+    .hr1 {
+        margin-right: 240px;
+        display: none;
+    }
+
+    #droper {
+        display: none;
+    }
+
+    .card {
+        margin-top: 20px;
+        background-color: wheat;
+        height: auto;
+        margin-left: 150px;
+        width: 510px;
+        border-radius: 40px;
+        transition: all 0.3s ease-in-out;
+        color: wheat;
+        transform: rotateZ(180deg);
+    }
+
+    .card:hover {
+        background-color: rgb(12, 243, 12);
+        border-radius: 40px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        transform: rotateZ(0deg);
+    }
+
+    #card_img {
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+}
+
+/***** End starting of responcive css *****/
